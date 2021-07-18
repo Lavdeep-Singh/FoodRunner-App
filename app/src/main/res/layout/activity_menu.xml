@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MenuActivity">
+    <TextView
+        android:id="@+id/rty"
+        android:background="#CDCDCD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Choose from menu list below"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#000000"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/rty"
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+    <RelativeLayout
+        android:id="@+id/relativeLayoutProceedToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible">
+        <Button
+            android:id="@+id/btnProceedToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#e53935"
+            android:text="Proceed to cart"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</RelativeLayout>

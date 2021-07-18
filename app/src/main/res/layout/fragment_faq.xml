@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".FaqFragment">
+
+    <!-- TODO: Update blank com.example.bookhub.fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/faq_background"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/faq_background"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F62459"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Q1. Who is a Food Runner Delivery Partner?"
+                />
+            <TextView
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Runner Delivery Partners are independent contractors, who are required to pick up food or grocery items ordered by customers from restaurants / outlets and deliver to customers. Delivery Partners use their own vehicles (Bike/Cycle) to deliver orders to Zomato customers"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="25dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/faq_background"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F62459"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Q2. What are the requirements to become a Food Runner Delivery Partner?"
+                />
+            <TextView
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must be at least 18 years old.
+Android phone of version 6.0 or higher with at least 2GB of RAM.
+A two-wheeler that meets all applicable law and safety requirements.
+Driving License, Registration Certificate (RC) and Insurance Certificate
+Address proof.
+A valid PAN (Permanent Account Number) Card.
+Bank Account proof."
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/faq_background"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F62459"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Q3. When do I start delivering orders?"
+                />
+            <TextView
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once your registration is complete, our team will run a background check after which you can start delivering orders."
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/faq_background"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F62459"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Q4. What are Food Hygiene Ratings?"
+                />
+            <TextView
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hygiene Ratings system will help consumers choose where to eat from by giving them information about the hygiene standards. It isn’t easy to judge hygiene standards by appearances alone, so the rating gives you some idea of what’s going on in the kitchen, or behind closed doors."
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="25dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/faq_background"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F62459"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Q5. Do I have to pay to start using the app??"
+                />
+            <TextView
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, Zomato for Business is a free app. All features within the app are also free."
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/faq_background"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F62459"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Q6. What are Food Hygiene Ratings?"
+                />
+            <TextView
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Hygiene Ratings system will help consumers choose where to eat from by giving them information about the hygiene standards. It isn’t easy to judge hygiene standards by appearances alone, so the rating gives you some idea of what’s going on in the kitchen, or behind closed doors."
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

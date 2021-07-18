@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="enter_your_mobile_number_10digits">Enter mobile number</string>
+    <string name="prefrences_file_name">dataFile</string>
+    <string name="prefrences_file_name1">dataFile1</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="aboutApp">About App</string>
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="profileapp_fragment">Dashboard Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="register">Register</string>
+    <string name="don_t_have_an_account_signup_now">Don\'t have an account? Signup now</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reg_name">name</string>
+    <string name="reg_mobile_number">mobile_number</string>
+    <string name="reg_user_id">user_id</string>
+    <string name="reg_email">email</string>
+    <string name="reg_address">address</string>
+    <string name="rest_id">rest_id</string>
+    <string name="food_id">food_id</string>
+    <string name="cost_one">cost_one</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
